@@ -1,0 +1,7 @@
+{
+  "name": "agents",
+  "interface": {
+    "displayName": "stuft2 Agents"
+  },
+  "plugins": []
+}
