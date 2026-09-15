@@ -1,0 +1,4 @@
+interface:
+  display_name: "Excelize Spreadsheets"
+  short_description: "Create and edit Excel workbooks with Go"
+  default_prompt: "Use $excelize-spreadsheets with Go and excelize to create or modify this Excel workbook."

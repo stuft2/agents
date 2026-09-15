@@ -3,5 +3,18 @@
   "interface": {
     "displayName": "stuft2 Agents"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "excel",
+      "source": {
+        "source": "local",
+        "path": "./plugins/excel"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
 }

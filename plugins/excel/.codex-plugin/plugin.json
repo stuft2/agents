@@ -1,0 +1,28 @@
+{
+  "name": "excel",
+  "version": "0.1.0",
+  "description": "Create, inspect, and modify Excel workbooks with Go and excelize.",
+  "author": {
+    "name": "stuft2",
+    "url": "https://github.com/stuft2"
+  },
+  "homepage": "https://github.com/stuft2/agents/tree/main/plugins/excel",
+  "repository": "https://github.com/stuft2/agents",
+  "license": "MIT",
+  "keywords": ["excel", "xlsx", "golang", "excelize", "spreadsheets"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Excel",
+    "shortDescription": "Manipulate Excel spreadsheets with Go and excelize.",
+    "longDescription": "Create, inspect, transform, format, and validate Excel workbooks using idiomatic Go and github.com/xuri/excelize/v2.",
+    "developerName": "stuft2",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/stuft2/agents/tree/main/plugins/excel",
+    "defaultPrompt": [
+      "Create an Excel workbook from this data using Go and excelize.",
+      "Modify this workbook while preserving its existing structure.",
+      "Inspect this spreadsheet and summarize its sheets and formulas."
+    ]
+  }
+}
