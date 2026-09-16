@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "excel",
+      "name": "productivity",
       "source": {
         "source": "local",
-        "path": "./plugins/excel"
+        "path": "./plugins/productivity"
       },
       "policy": {
         "installation": "AVAILABLE",
