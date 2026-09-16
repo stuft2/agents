@@ -1,7 +1,7 @@
 {
-  "name": "agents",
+  "name": "stuft2",
   "interface": {
-    "displayName": "stuft2 Agents"
+    "displayName": "stuft2"
   },
   "plugins": [
     {
