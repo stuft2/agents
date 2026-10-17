@@ -1,0 +1,37 @@
+{
+  "name": "administration",
+  "version": "0.1.0",
+  "description": "Write concise organizational mission, vision, and values documents.",
+  "author": {
+    "name": "stuft2",
+    "url": "https://github.com/stuft2"
+  },
+  "homepage": "https://github.com/stuft2/agents/tree/main/plugins/administration",
+  "repository": "https://github.com/stuft2/agents",
+  "license": "MIT",
+  "keywords": [
+    "mission",
+    "vision",
+    "values",
+    "strategy",
+    "organization"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Administration",
+    "shortDescription": "Draft organizational mission, vision, and values.",
+    "longDescription": "Create concise, distinct mission and vision statements and practical values with observable behaviors, informed by the BYU MPA 640 Week 5 strategy distinctions when relevant.",
+    "developerName": "stuft2",
+    "category": "Writing",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/stuft2/agents/tree/main/plugins/administration",
+    "defaultPrompt": [
+      "Draft our organization's mission, vision, and values.",
+      "Revise these purpose statements to make the mission and vision distinct.",
+      "Turn these organizational values into observable behaviors."
+    ]
+  }
+}

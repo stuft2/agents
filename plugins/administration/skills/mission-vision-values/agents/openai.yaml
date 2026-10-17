@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mission, Vision, and Values"
+  short_description: "Draft a clear organizational purpose document"
+  default_prompt: "Use $mission-vision-values to draft or revise our organization's mission, vision, and values."
