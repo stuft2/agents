@@ -1,0 +1,4 @@
+interface:
+  display_name: "Excelize Script Curator"
+  short_description: "Reuse and improve verified Excelize recipes"
+  default_prompt: "Use $excelize-script-curator to find, validate, and improve reusable Go Excelize recipes."

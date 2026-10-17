@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "recipes": [
+    {
+      "id": "inspect-workbook",
+      "title": "Inspect workbook structure",
+      "summary": "Collect sheet dimensions, merged ranges, formulas, and representative values without modifying the workbook.",
+      "file": "scripts/recipes/inspect_workbook.go",
+      "tags": ["inspect", "sheets", "dimensions", "formulas", "merged-cells", "values"],
+      "status": "active",
+      "uses": 0,
+      "successes": 0,
+      "failures": []
+    }
+  ]
+}

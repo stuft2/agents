@@ -7,6 +7,8 @@ description: Create, inspect, transform, and validate Excel workbooks with Go an
 
 Use `github.com/xuri/excelize/v2` and preserve the user's requested file format, layout, and output location.
 
+When `$excelize-script-curator` is available, use it to search for a proven recipe before implementing a common operation and to record verified reuse afterward. Curate the shared library only for a demonstrated repeated pattern or generalizable fix; workbook correctness takes priority.
+
 ## Workflow
 
 1. Clarify only choices that materially affect the workbook, such as an ambiguous source file, output path, or whether formulas or values are desired. Otherwise infer sensible defaults from the request.
